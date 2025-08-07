@@ -1,0 +1,23 @@
+{
+    "name": "cecilcordheley/simpledom",
+    "description": "Manipulez le DOM HTML en PHP comme en JavaScript",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cecil Cordheley",
+            "email": "ccordheley@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Absolu\\SimpleDOM\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
